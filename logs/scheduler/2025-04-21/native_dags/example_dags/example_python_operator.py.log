@@ -1,0 +1,40 @@
+[2025-04-21T00:40:40.066-0300] {processor.py:186} INFO - Started process (PID=15731) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:40:40.067-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-04-21T00:40:40.071-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.070-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:40:40.081-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.081-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-04-21T00:40:40.085-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:40:40.287-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.286-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_python_operator
+[2025-04-21T00:40:40.311-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.310-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2025-04-21T00:40:40.329-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.328-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2025-04-21T00:40:40.358-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.357-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_python_operator
+[2025-04-21T00:40:40.376-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.375-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_python_operator
+[2025-04-21T00:40:40.396-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.395-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_python_operator
+[2025-04-21T00:40:40.415-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.414-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_python_operator
+[2025-04-21T00:40:40.415-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.415-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:40.434-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.434-0300] {dag.py:3262} INFO - Creating ORM DAG for example_python_operator
+[2025-04-21T00:40:40.436-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:40.435-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-04-21T00:40:40.471-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.412 seconds
+[2025-04-21T00:43:19.884-0300] {processor.py:186} INFO - Started process (PID=472) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:43:19.906-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-04-21T00:43:19.908-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:19.908-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:43:19.918-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:19.918-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-04-21T00:43:19.921-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:43:19.946-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:19.946-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:19.965-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:19.964-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-04-21T00:43:20.000-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.122 seconds
+[2025-04-21T00:44:31.135-0300] {processor.py:186} INFO - Started process (PID=585) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:44:31.137-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-04-21T00:44:31.140-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:31.140-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:44:31.150-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:31.150-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-04-21T00:44:31.155-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:44:31.189-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:31.189-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:31.210-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:31.210-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-04-21T00:44:31.251-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.124 seconds
+[2025-04-21T00:45:43.376-0300] {processor.py:186} INFO - Started process (PID=680) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:45:43.398-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-04-21T00:45:43.401-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:43.400-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:45:43.412-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:43.411-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-04-21T00:45:43.415-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2025-04-21T00:45:43.438-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:43.437-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:43.454-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:43.454-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-04-21T00:45:43.488-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.119 seconds

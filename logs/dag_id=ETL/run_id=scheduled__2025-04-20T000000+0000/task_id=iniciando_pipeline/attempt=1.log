@@ -1,0 +1,21 @@
+[2025-04-21T01:51:42.281-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T01:51:42.300-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL.iniciando_pipeline scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T01:51:42.310-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL.iniciando_pipeline scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T01:51:42.311-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-04-21T01:51:42.382-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): iniciando_pipeline> on 2025-04-20 00:00:00+00:00
+[2025-04-21T01:51:42.387-0300] {standard_task_runner.py:72} INFO - Started process 10780 to run task
+[2025-04-21T01:51:42.389-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ETL', 'iniciando_pipeline', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/ETL.py', '--cfg-path', '/tmp/tmptxu002c6']
+[2025-04-21T01:51:42.391-0300] {standard_task_runner.py:105} INFO - Job 21: Subtask iniciando_pipeline
+[2025-04-21T01:51:42.479-0300] {task_command.py:467} INFO - Running <TaskInstance: ETL.iniciando_pipeline scheduled__2025-04-20T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T01:51:42.586-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ETL' AIRFLOW_CTX_TASK_ID='iniciando_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T01:51:42.587-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T01:51:42.607-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-21T01:51:42.609-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "🚀 Iniciando o pipeline..."']
+[2025-04-21T01:51:42.620-0300] {subprocess.py:99} INFO - Output:
+[2025-04-21T01:51:42.622-0300] {subprocess.py:106} INFO - 🚀 Iniciando o pipeline...
+[2025-04-21T01:51:42.622-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-21T01:51:42.663-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T01:51:42.664-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL, task_id=iniciando_pipeline, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T045142, end_date=20250421T045142
+[2025-04-21T01:51:42.765-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T01:51:42.794-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T01:51:42.843-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

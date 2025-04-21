@@ -1,0 +1,69 @@
+[2025-04-21T01:34:54.955-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T01:34:54.969-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Web_Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T01:34:54.978-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Web_Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T01:34:54.978-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2025-04-21T01:34:55.003-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): run_scraper> on 2025-04-20 00:00:00+00:00
+[2025-04-21T01:34:55.007-0300] {standard_task_runner.py:72} INFO - Started process 8010 to run task
+[2025-04-21T01:34:55.010-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Web_Scraping', 'run_scraper', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmp4sm5hcpg']
+[2025-04-21T01:34:55.011-0300] {standard_task_runner.py:105} INFO - Job 18: Subtask run_scraper
+[2025-04-21T01:34:55.058-0300] {task_command.py:467} INFO - Running <TaskInstance: Web_Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T01:34:55.145-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Web_Scraping' AIRFLOW_CTX_TASK_ID='run_scraper' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T01:34:55.146-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T01:35:01.306-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:01.307-0300] {get_data_scraping.py:40} INFO - Acessando a página da NYC TLC...
+[2025-04-21T01:35:05.255-0300] {get_data_scraping.py:44} INFO - Esperando botão de expansão de 2023...
+[2025-04-21T01:35:05.548-0300] {get_data_scraping.py:47} INFO - Expansão da seção de 2023 realizada com sucesso.
+[2025-04-21T01:35:05.549-0300] {get_data_scraping.py:49} INFO - Buscando todos os links de arquivos .parquet de 2023...
+[2025-04-21T01:35:05.607-0300] {get_data_scraping.py:54} INFO - 12 arquivos encontrados para 2023.
+[2025-04-21T01:35:05.645-0300] {get_data_scraping.py:75} INFO - 📥 Baixando yellow_tripdata_2023-01.parquet...
+[2025-04-21T01:35:13.461-0300] {get_data_scraping.py:80} INFO - ✅ Download concluído: yellow_tripdata_2023-01.parquet
+[2025-04-21T01:35:14.245-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:14.246-0300] {get_data_scraping.py:87} INFO - 🚀 Simulando envio para S3: s3://yellow_taxi_files/2023_01/yellow_tripdata_2023-01.parquet
+[2025-04-21T01:35:14.247-0300] {logging_mixin.py:190} INFO - 🚀 Enviando para S3: s3://yellow_taxi_files/2023_01/yellow_tripdata_2023-01.parquet
+[2025-04-21T01:35:14.247-0300] {get_data_scraping.py:89} INFO - Simulando criação do path s3.upload_file(local_path, BUCKET_NAME, s3_key)
+[2025-04-21T01:35:15.214-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:15.234-0300] {get_data_scraping.py:75} INFO - 📥 Baixando yellow_tripdata_2023-02.parquet...
+[2025-04-21T01:35:26.107-0300] {get_data_scraping.py:80} INFO - ✅ Download concluído: yellow_tripdata_2023-02.parquet
+[2025-04-21T01:35:26.523-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:26.523-0300] {get_data_scraping.py:87} INFO - 🚀 Simulando envio para S3: s3://yellow_taxi_files/2023_02/yellow_tripdata_2023-02.parquet
+[2025-04-21T01:35:26.524-0300] {logging_mixin.py:190} INFO - 🚀 Enviando para S3: s3://yellow_taxi_files/2023_02/yellow_tripdata_2023-02.parquet
+[2025-04-21T01:35:26.524-0300] {get_data_scraping.py:89} INFO - Simulando criação do path s3.upload_file(local_path, BUCKET_NAME, s3_key)
+[2025-04-21T01:35:27.035-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:27.050-0300] {get_data_scraping.py:75} INFO - 📥 Baixando yellow_tripdata_2023-03.parquet...
+[2025-04-21T01:35:34.670-0300] {get_data_scraping.py:80} INFO - ✅ Download concluído: yellow_tripdata_2023-03.parquet
+[2025-04-21T01:35:35.270-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:35.271-0300] {get_data_scraping.py:87} INFO - 🚀 Simulando envio para S3: s3://yellow_taxi_files/2023_03/yellow_tripdata_2023-03.parquet
+[2025-04-21T01:35:35.272-0300] {logging_mixin.py:190} INFO - 🚀 Enviando para S3: s3://yellow_taxi_files/2023_03/yellow_tripdata_2023-03.parquet
+[2025-04-21T01:35:35.272-0300] {get_data_scraping.py:89} INFO - Simulando criação do path s3.upload_file(local_path, BUCKET_NAME, s3_key)
+[2025-04-21T01:35:35.939-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:35.956-0300] {get_data_scraping.py:75} INFO - 📥 Baixando yellow_tripdata_2023-04.parquet...
+[2025-04-21T01:35:43.603-0300] {get_data_scraping.py:80} INFO - ✅ Download concluído: yellow_tripdata_2023-04.parquet
+[2025-04-21T01:35:44.095-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:44.095-0300] {get_data_scraping.py:87} INFO - 🚀 Simulando envio para S3: s3://yellow_taxi_files/2023_04/yellow_tripdata_2023-04.parquet
+[2025-04-21T01:35:44.096-0300] {logging_mixin.py:190} INFO - 🚀 Enviando para S3: s3://yellow_taxi_files/2023_04/yellow_tripdata_2023-04.parquet
+[2025-04-21T01:35:44.096-0300] {get_data_scraping.py:89} INFO - Simulando criação do path s3.upload_file(local_path, BUCKET_NAME, s3_key)
+[2025-04-21T01:35:44.683-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:44.700-0300] {get_data_scraping.py:75} INFO - 📥 Baixando yellow_tripdata_2023-05.parquet...
+[2025-04-21T01:35:51.919-0300] {get_data_scraping.py:80} INFO - ✅ Download concluído: yellow_tripdata_2023-05.parquet
+[2025-04-21T01:35:52.550-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:52.551-0300] {get_data_scraping.py:87} INFO - 🚀 Simulando envio para S3: s3://yellow_taxi_files/2023_05/yellow_tripdata_2023-05.parquet
+[2025-04-21T01:35:52.551-0300] {logging_mixin.py:190} INFO - 🚀 Enviando para S3: s3://yellow_taxi_files/2023_05/yellow_tripdata_2023-05.parquet
+[2025-04-21T01:35:52.551-0300] {get_data_scraping.py:89} INFO - Simulando criação do path s3.upload_file(local_path, BUCKET_NAME, s3_key)
+[2025-04-21T01:35:53.239-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:53.254-0300] {get_data_scraping.py:65} INFO - 🟡 Ignorando yellow_tripdata_2023-06.parquet (mês 6 > 5)
+[2025-04-21T01:35:53.268-0300] {get_data_scraping.py:65} INFO - 🟡 Ignorando yellow_tripdata_2023-07.parquet (mês 7 > 5)
+[2025-04-21T01:35:53.281-0300] {get_data_scraping.py:65} INFO - 🟡 Ignorando yellow_tripdata_2023-08.parquet (mês 8 > 5)
+[2025-04-21T01:35:53.296-0300] {get_data_scraping.py:65} INFO - 🟡 Ignorando yellow_tripdata_2023-09.parquet (mês 9 > 5)
+[2025-04-21T01:35:53.310-0300] {get_data_scraping.py:65} INFO - 🟡 Ignorando yellow_tripdata_2023-10.parquet (mês 10 > 5)
+[2025-04-21T01:35:53.326-0300] {get_data_scraping.py:65} INFO - 🟡 Ignorando yellow_tripdata_2023-11.parquet (mês 11 > 5)
+[2025-04-21T01:35:53.340-0300] {get_data_scraping.py:65} INFO - 🟡 Ignorando yellow_tripdata_2023-12.parquet (mês 12 > 5)
+[2025-04-21T01:35:53.341-0300] {get_data_scraping.py:116} INFO - ✅ Processo finalizado: arquivos até 2023-05 processados.
+[2025-04-21T01:35:53.724-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:53.881-0300] {get_data_scraping.py:125} INFO - 🧹 Navegador fechado.
+[2025-04-21T01:35:54.506-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T01:35:54.508-0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-21T01:35:54.516-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T01:35:54.517-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Web_Scraping, task_id=run_scraper, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T043454, end_date=20250421T043554
+[2025-04-21T01:35:54.616-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T01:35:54.634-0300] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T01:35:54.635-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

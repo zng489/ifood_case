@@ -1,0 +1,11 @@
+Warning: Ignoring non-Spark config property: hive.metastore.uris
+Traceback (most recent call last):
+  File "/home/lenovo/airflow/jobs/jobs_functions/dw_sparkmetastore.py", line 9, in <module>
+    from jobs.log_utils.logging_function import configurar_logger, notificar_falha
+ModuleNotFoundError: No module named 'jobs'
+25/04/21 10:19:06 INFO ShutdownHookManager: Shutdown hook called
+25/04/21 10:19:06 INFO ShutdownHookManager: Deleting directory /tmp/spark-bcb50fbd-dc1e-4574-bcc3-a21a106ac1dc
+25/04/21 10:25:04 INFO ShutdownHookManager: Shutdown hook called
+25/04/21 10:25:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-52946881-1964-48b3-9eb3-5e89b6801195
+25/04/21 10:37:00 INFO ShutdownHookManager: Shutdown hook called
+25/04/21 10:37:00 INFO ShutdownHookManager: Deleting directory /tmp/spark-c22e04f3-99ad-4ed8-b196-ea09b4c4f3ae

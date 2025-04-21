@@ -1,0 +1,36 @@
+[2025-04-21T00:40:26.355-0300] {processor.py:186} INFO - Started process (PID=15695) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:40:26.356-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-04-21T00:40:26.358-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.357-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:40:26.380-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:40:26.546-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.545-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_bash_decorator
+[2025-04-21T00:40:26.570-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.569-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_bash_decorator
+[2025-04-21T00:40:26.586-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.586-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_bash_decorator
+[2025-04-21T00:40:26.615-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.615-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_bash_decorator
+[2025-04-21T00:40:26.632-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.632-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_bash_decorator
+[2025-04-21T00:40:26.650-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.649-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_bash_decorator
+[2025-04-21T00:40:26.669-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.669-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_bash_decorator
+[2025-04-21T00:40:26.670-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.669-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:26.689-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.688-0300] {dag.py:3262} INFO - Creating ORM DAG for example_bash_decorator
+[2025-04-21T00:40:26.689-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:26.689-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-04-21T00:40:26.721-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.374 seconds
+[2025-04-21T00:43:08.233-0300] {processor.py:186} INFO - Started process (PID=462) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:43:08.235-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-04-21T00:43:08.237-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:08.237-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:43:08.256-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:43:08.414-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:08.413-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:08.430-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:08.430-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-04-21T00:43:08.480-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.255 seconds
+[2025-04-21T00:44:19.552-0300] {processor.py:186} INFO - Started process (PID=570) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:44:19.576-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-04-21T00:44:19.579-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:19.579-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:44:19.606-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:44:19.643-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:19.642-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:19.663-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:19.663-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-04-21T00:44:19.713-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.173 seconds
+[2025-04-21T00:45:32.994-0300] {processor.py:186} INFO - Started process (PID=670) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:45:33.016-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-04-21T00:45:33.019-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:33.019-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:45:33.043-0300] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-04-21T00:45:33.071-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:33.071-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:33.087-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:33.087-0300] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-04-21T00:45:33.118-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.133 seconds

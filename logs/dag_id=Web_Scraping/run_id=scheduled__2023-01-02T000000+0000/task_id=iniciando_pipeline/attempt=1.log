@@ -1,0 +1,63 @@
+[2025-04-21T01:30:31.988-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T01:30:32.005-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2025-04-21T01:30:32.014-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2025-04-21T01:30:32.014-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-04-21T01:30:32.043-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): iniciando_pipeline> on 2023-01-02 00:00:00+00:00
+[2025-04-21T01:30:32.048-0300] {standard_task_runner.py:72} INFO - Started process 7352 to run task
+[2025-04-21T01:30:32.052-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Web_Scraping', 'iniciando_pipeline', 'scheduled__2023-01-02T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmp0t4yqi_0']
+[2025-04-21T01:30:32.053-0300] {standard_task_runner.py:105} INFO - Job 7: Subtask iniciando_pipeline
+[2025-04-21T01:30:32.110-0300] {task_command.py:467} INFO - Running <TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T01:30:32.198-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Web_Scraping' AIRFLOW_CTX_TASK_ID='iniciando_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2023-01-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-02T00:00:00+00:00'
+[2025-04-21T01:30:32.199-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T01:30:32.221-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-21T01:30:32.223-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "🚀 Iniciando o pipeline..."']
+[2025-04-21T01:30:32.231-0300] {subprocess.py:99} INFO - Output:
+[2025-04-21T01:30:32.233-0300] {subprocess.py:106} INFO - 🚀 Iniciando o pipeline...
+[2025-04-21T01:30:32.233-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-21T01:30:32.261-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T01:30:32.262-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Web_Scraping, task_id=iniciando_pipeline, run_id=scheduled__2023-01-02T00:00:00+00:00, execution_date=20230102T000000, start_date=20250421T043032, end_date=20250421T043032
+[2025-04-21T01:30:32.306-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T01:30:32.331-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T01:30:32.343-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-04-21T01:31:22.042-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T01:31:22.055-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2025-04-21T01:31:22.063-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2025-04-21T01:31:22.063-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-04-21T01:31:22.093-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): iniciando_pipeline> on 2023-01-02 00:00:00+00:00
+[2025-04-21T01:31:22.097-0300] {standard_task_runner.py:72} INFO - Started process 7480 to run task
+[2025-04-21T01:31:22.100-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Web_Scraping', 'iniciando_pipeline', 'scheduled__2023-01-02T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmpoqx9l077']
+[2025-04-21T01:31:22.102-0300] {standard_task_runner.py:105} INFO - Job 11: Subtask iniciando_pipeline
+[2025-04-21T01:31:22.158-0300] {task_command.py:467} INFO - Running <TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T01:31:22.248-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Web_Scraping' AIRFLOW_CTX_TASK_ID='iniciando_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2023-01-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-02T00:00:00+00:00'
+[2025-04-21T01:31:22.249-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T01:31:22.266-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-21T01:31:22.268-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "🚀 Iniciando o pipeline..."']
+[2025-04-21T01:31:22.277-0300] {subprocess.py:99} INFO - Output:
+[2025-04-21T01:31:22.278-0300] {subprocess.py:106} INFO - 🚀 Iniciando o pipeline...
+[2025-04-21T01:31:22.279-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-21T01:31:22.308-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T01:31:22.309-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Web_Scraping, task_id=iniciando_pipeline, run_id=scheduled__2023-01-02T00:00:00+00:00, execution_date=20230102T000000, start_date=20250421T043122, end_date=20250421T043122
+[2025-04-21T01:31:22.354-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T01:31:22.379-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T01:31:22.389-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-04-21T01:32:08.896-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T01:32:08.913-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2025-04-21T01:32:08.922-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2025-04-21T01:32:08.923-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-04-21T01:32:08.969-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): iniciando_pipeline> on 2023-01-02 00:00:00+00:00
+[2025-04-21T01:32:08.974-0300] {standard_task_runner.py:72} INFO - Started process 7600 to run task
+[2025-04-21T01:32:08.978-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Web_Scraping', 'iniciando_pipeline', 'scheduled__2023-01-02T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmpip77_r4s']
+[2025-04-21T01:32:08.979-0300] {standard_task_runner.py:105} INFO - Job 14: Subtask iniciando_pipeline
+[2025-04-21T01:32:09.047-0300] {task_command.py:467} INFO - Running <TaskInstance: Web_Scraping.iniciando_pipeline scheduled__2023-01-02T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T01:32:09.160-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Web_Scraping' AIRFLOW_CTX_TASK_ID='iniciando_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2023-01-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-02T00:00:00+00:00'
+[2025-04-21T01:32:09.161-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T01:32:09.184-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-21T01:32:09.186-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "🚀 Iniciando o pipeline..."']
+[2025-04-21T01:32:09.197-0300] {subprocess.py:99} INFO - Output:
+[2025-04-21T01:32:09.202-0300] {subprocess.py:106} INFO - 🚀 Iniciando o pipeline...
+[2025-04-21T01:32:09.203-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-21T01:32:09.243-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T01:32:09.244-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Web_Scraping, task_id=iniciando_pipeline, run_id=scheduled__2023-01-02T00:00:00+00:00, execution_date=20230102T000000, start_date=20250421T043208, end_date=20250421T043209
+[2025-04-21T01:32:09.314-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T01:32:09.341-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T01:32:09.352-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

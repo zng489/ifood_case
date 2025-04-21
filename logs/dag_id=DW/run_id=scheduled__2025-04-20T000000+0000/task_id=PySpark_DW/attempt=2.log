@@ -1,0 +1,37 @@
+[2025-04-21T02:08:14.413-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T02:08:14.432-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DW.PySpark_DW scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T02:08:14.442-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DW.PySpark_DW scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T02:08:14.442-0300] {taskinstance.py:2866} INFO - Starting attempt 2 of 4
+[2025-04-21T02:08:14.467-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): PySpark_DW> on 2025-04-20 00:00:00+00:00
+[2025-04-21T02:08:14.479-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'DW', 'PySpark_DW', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/DW.py', '--cfg-path', '/tmp/tmpzdt_wq6b']
+[2025-04-21T02:08:14.480-0300] {standard_task_runner.py:105} INFO - Job 30: Subtask PySpark_DW
+[2025-04-21T02:08:14.485-0300] {logging_mixin.py:190} WARNING - /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=16654) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-21T02:08:14.486-0300] {standard_task_runner.py:72} INFO - Started process 16762 to run task
+[2025-04-21T02:08:14.534-0300] {task_command.py:467} INFO - Running <TaskInstance: DW.PySpark_DW scheduled__2025-04-20T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T02:08:14.642-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='DW' AIRFLOW_CTX_TASK_ID='PySpark_DW' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T02:08:14.644-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T02:08:21.894-0300] {dw_pyspark.py:42} INFO - Padronizando os dados
+[2025-04-21T02:08:22.427-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T02:08:34.809-0300] {dw_pyspark.py:70} INFO - 📊 Resultado da agregação por mês:
++----+-----+----------------------+---------------------+------------------+
+|YEAR|MONTH|SOMATORIA_TOTAL_AMOUNT|NUMERO_TOTAL_DE_TRIPS| avg_fare_per_trip|
++----+-----+----------------------+---------------------+------------------+
+|2023|   01|   8.286412023978238E7|              3066741|  27.0202538263852|
+|2023|   05|  1.0172025517973007E8|              3512634|28.958398506570873|
+|2023|   02|   7.838083854983433E7|              2913950|26.898484376819894|
+|2023|   04|   9.295682404977362E7|              3288242|28.269459501391204|
+|2023|   03|   9.463574032971822E7|              3403755|27.803334943237164|
++----+-----+----------------------+---------------------+------------------+
+
+
+[2025-04-21T02:08:35.682-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T02:08:38.098-0300] {dw_pyspark.py:82} INFO - ✅ Tabela externa 'ext_avg_total_amount' salva com sucesso em: /home/lenovo/airflow/tmp/external_tables/avg_total_amount
+[2025-04-21T02:08:38.746-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T02:08:45.291-0300] {dw_pyspark.py:105} INFO - ✅ Tabela externa 'ext_avg_passenger_count' salva com sucesso em: /home/lenovo/airflow/tmp/external_tables/avg_passenger_count
+[2025-04-21T02:08:48.438-0300] {logging_mixin.py:190} INFO - Mensagem enviada com sucesso.
+[2025-04-21T02:08:48.615-0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-21T02:08:48.626-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T02:08:48.627-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DW, task_id=PySpark_DW, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T050814, end_date=20250421T050848
+[2025-04-21T02:08:48.723-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T02:08:48.749-0300] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T02:08:48.750-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

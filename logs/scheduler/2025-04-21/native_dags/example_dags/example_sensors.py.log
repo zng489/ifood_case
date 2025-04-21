@@ -1,0 +1,50 @@
+[2025-04-21T00:40:00.472-0300] {processor.py:186} INFO - Started process (PID=15677) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:40:00.473-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-21T00:40:00.476-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.476-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:40:00.491-0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:40:00.677-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.676-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-04-21T00:40:00.698-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.698-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-04-21T00:40:00.716-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.715-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-04-21T00:40:00.745-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.745-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-04-21T00:40:00.764-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.763-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-04-21T00:40:00.782-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.782-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-04-21T00:40:00.800-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.799-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-04-21T00:40:00.800-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.800-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:00.816-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.815-0300] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-04-21T00:40:00.817-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:00.816-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-21T00:40:00.850-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.385 seconds
+[2025-04-21T00:41:20.249-0300] {processor.py:186} INFO - Started process (PID=15762) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:41:20.272-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-21T00:41:20.275-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:20.274-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:41:20.291-0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:41:20.324-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:20.323-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:41:20.342-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:20.342-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-21T00:41:20.379-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.138 seconds
+[2025-04-21T00:42:46.280-0300] {processor.py:186} INFO - Started process (PID=444) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:42:46.282-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-21T00:42:46.284-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:46.284-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:42:46.299-0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:42:46.338-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:46.338-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:42:46.355-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:46.355-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-21T00:42:46.390-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2025-04-21T00:43:51.512-0300] {processor.py:186} INFO - Started process (PID=527) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:43:51.514-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-21T00:43:51.517-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:51.516-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:43:51.532-0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:43:51.560-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:51.559-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:51.576-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:51.576-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-21T00:43:51.608-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds
+[2025-04-21T00:45:04.483-0300] {processor.py:186} INFO - Started process (PID=628) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:45:04.485-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-21T00:45:04.489-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:04.489-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:45:04.510-0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:45:04.549-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:04.549-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:04.569-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:04.569-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-21T00:45:04.608-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.135 seconds
+[2025-04-21T00:46:15.384-0300] {processor.py:186} INFO - Started process (PID=709) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:46:15.387-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-21T00:46:15.390-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:15.390-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:46:15.407-0300] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-21T00:46:15.440-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:15.440-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:46:15.459-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:15.458-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-21T00:46:15.492-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds

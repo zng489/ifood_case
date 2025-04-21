@@ -1,0 +1,36 @@
+[2025-04-21T00:40:39.097-0300] {processor.py:186} INFO - Started process (PID=15730) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:40:39.098-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-04-21T00:40:39.101-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.100-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:40:39.118-0300] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:40:39.355-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.354-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_short_circuit_decorator
+[2025-04-21T00:40:39.377-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.377-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_short_circuit_decorator
+[2025-04-21T00:40:39.394-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.394-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_short_circuit_decorator
+[2025-04-21T00:40:39.423-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.422-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_short_circuit_decorator
+[2025-04-21T00:40:39.440-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.439-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_short_circuit_decorator
+[2025-04-21T00:40:39.456-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.455-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_short_circuit_decorator
+[2025-04-21T00:40:39.476-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.476-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_short_circuit_decorator
+[2025-04-21T00:40:39.477-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.476-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:39.496-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.496-0300] {dag.py:3262} INFO - Creating ORM DAG for example_short_circuit_decorator
+[2025-04-21T00:40:39.497-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:39.497-0300] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2025-04-21T00:40:39.530-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.441 seconds
+[2025-04-21T00:43:18.636-0300] {processor.py:186} INFO - Started process (PID=471) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:43:18.658-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-04-21T00:43:18.661-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:18.661-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:43:18.676-0300] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:43:18.705-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:18.704-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:18.725-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:18.725-0300] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2025-04-21T00:43:18.757-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.129 seconds
+[2025-04-21T00:44:29.880-0300] {processor.py:186} INFO - Started process (PID=581) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:44:29.903-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-04-21T00:44:29.906-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:29.905-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:44:29.920-0300] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:44:29.945-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:29.945-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:29.962-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:29.962-0300] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2025-04-21T00:44:29.996-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.123 seconds
+[2025-04-21T00:45:42.129-0300] {processor.py:186} INFO - Started process (PID=679) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:45:42.151-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2025-04-21T00:45:42.155-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:42.154-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:45:42.169-0300] {processor.py:925} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2025-04-21T00:45:42.196-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:42.196-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:42.213-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:42.213-0300] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_decorator to None, run_after=None
+[2025-04-21T00:45:42.248-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.130 seconds

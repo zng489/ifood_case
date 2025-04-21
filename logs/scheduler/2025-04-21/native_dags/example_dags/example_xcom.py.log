@@ -1,0 +1,36 @@
+[2025-04-21T00:40:18.782-0300] {processor.py:186} INFO - Started process (PID=15689) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:40:18.784-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-04-21T00:40:18.786-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:18.786-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:40:18.800-0300] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:40:18.973-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:18.972-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom
+[2025-04-21T00:40:18.996-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:18.995-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom
+[2025-04-21T00:40:19.016-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.016-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom
+[2025-04-21T00:40:19.045-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.044-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom
+[2025-04-21T00:40:19.060-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.060-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom
+[2025-04-21T00:40:19.085-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.084-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom
+[2025-04-21T00:40:19.101-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.100-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom
+[2025-04-21T00:40:19.101-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.101-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:19.118-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.118-0300] {dag.py:3262} INFO - Creating ORM DAG for example_xcom
+[2025-04-21T00:40:19.133-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:19.133-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-04-21T00:40:19.169-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.393 seconds
+[2025-04-21T00:43:01.698-0300] {processor.py:186} INFO - Started process (PID=456) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:43:01.722-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-04-21T00:43:01.725-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:01.725-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:43:01.739-0300] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:43:01.769-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:01.769-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:01.799-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:01.798-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-04-21T00:43:01.838-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.147 seconds
+[2025-04-21T00:44:04.168-0300] {processor.py:186} INFO - Started process (PID=554) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:44:04.190-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-04-21T00:44:04.193-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:04.192-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:44:04.205-0300] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:44:04.225-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:04.224-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:04.250-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:04.250-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-04-21T00:44:04.283-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.122 seconds
+[2025-04-21T00:45:19.431-0300] {processor.py:186} INFO - Started process (PID=652) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:45:19.437-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-04-21T00:45:19.440-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:19.439-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:45:19.453-0300] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-04-21T00:45:19.474-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:19.474-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:19.499-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:19.499-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-04-21T00:45:19.530-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds

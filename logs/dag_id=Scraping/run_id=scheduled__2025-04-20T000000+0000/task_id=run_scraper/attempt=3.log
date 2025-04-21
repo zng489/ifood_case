@@ -1,0 +1,324 @@
+[2025-04-21T13:16:50.375-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T13:16:50.382-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:16:50.386-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:16:50.386-0300] {taskinstance.py:2866} INFO - Starting attempt 3 of 4
+[2025-04-21T13:16:50.400-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): run_scraper> on 2025-04-20 00:00:00+00:00
+[2025-04-21T13:16:50.403-0300] {standard_task_runner.py:72} INFO - Started process 71529 to run task
+[2025-04-21T13:16:50.405-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Scraping', 'run_scraper', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmpag7yc36x']
+[2025-04-21T13:16:50.406-0300] {standard_task_runner.py:105} INFO - Job 84: Subtask run_scraper
+[2025-04-21T13:16:50.436-0300] {task_command.py:467} INFO - Running <TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T13:16:50.478-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Scraping' AIRFLOW_CTX_TASK_ID='run_scraper' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T13:16:50.479-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T13:16:50.489-0300] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/jobs_functions/get_data_scraping.py", line 15, in run_scraper
+    s3_uri = lendo()
+             ^^^^^^^
+  File "/home/lenovo/airflow/jobs/s3/s3_functions.py", line 100, in lendo
+    with mock_aws("s3"):
+         ^^^^^^^^^^^^^^
+TypeError: 'function' object does not support the context manager protocol
+[2025-04-21T13:16:50.494-0300] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=Scraping, task_id=run_scraper, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T161650, end_date=20250421T161650
+[2025-04-21T13:16:50.509-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T13:16:50.510-0300] {standard_task_runner.py:124} ERROR - Failed to execute job 84 for task run_scraper ('function' object does not support the context manager protocol; 71529)
+Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/jobs_functions/get_data_scraping.py", line 15, in run_scraper
+    s3_uri = lendo()
+             ^^^^^^^
+  File "/home/lenovo/airflow/jobs/s3/s3_functions.py", line 100, in lendo
+    with mock_aws("s3"):
+         ^^^^^^^^^^^^^^
+TypeError: 'function' object does not support the context manager protocol
+[2025-04-21T13:16:50.539-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-21T13:16:50.555-0300] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T13:16:50.555-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-04-21T13:27:09.543-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T13:27:09.550-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:27:09.554-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:27:09.554-0300] {taskinstance.py:2866} INFO - Starting attempt 3 of 4
+[2025-04-21T13:27:09.569-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): run_scraper> on 2025-04-20 00:00:00+00:00
+[2025-04-21T13:27:09.572-0300] {standard_task_runner.py:72} INFO - Started process 72195 to run task
+[2025-04-21T13:27:09.574-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Scraping', 'run_scraper', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmphyz4nb52']
+[2025-04-21T13:27:09.575-0300] {standard_task_runner.py:105} INFO - Job 88: Subtask run_scraper
+[2025-04-21T13:27:09.604-0300] {task_command.py:467} INFO - Running <TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T13:27:09.647-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Scraping' AIRFLOW_CTX_TASK_ID='run_scraper' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T13:27:09.647-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T13:27:09.656-0300] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/jobs_functions/get_data_scraping.py", line 15, in run_scraper
+    s3_uri = lendo(is_mock = True)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/s3/s3_functions.py", line 102, in lendo
+    mock.start()  # Ativa o mock fora do contexto 'with'
+    ^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'start'
+[2025-04-21T13:27:09.661-0300] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=Scraping, task_id=run_scraper, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T162709, end_date=20250421T162709
+[2025-04-21T13:27:09.676-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T13:27:09.677-0300] {standard_task_runner.py:124} ERROR - Failed to execute job 88 for task run_scraper ('function' object has no attribute 'start'; 72195)
+Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/jobs_functions/get_data_scraping.py", line 15, in run_scraper
+    s3_uri = lendo(is_mock = True)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/s3/s3_functions.py", line 102, in lendo
+    mock.start()  # Ativa o mock fora do contexto 'with'
+    ^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'start'
+[2025-04-21T13:27:09.709-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-21T13:27:09.724-0300] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T13:27:09.725-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-04-21T13:31:16.284-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T13:31:16.291-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:31:16.295-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:31:16.296-0300] {taskinstance.py:2866} INFO - Starting attempt 3 of 4
+[2025-04-21T13:31:16.311-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): run_scraper> on 2025-04-20 00:00:00+00:00
+[2025-04-21T13:31:16.315-0300] {standard_task_runner.py:72} INFO - Started process 72495 to run task
+[2025-04-21T13:31:16.317-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Scraping', 'run_scraper', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmp19oy_wv1']
+[2025-04-21T13:31:16.319-0300] {standard_task_runner.py:105} INFO - Job 93: Subtask run_scraper
+[2025-04-21T13:31:16.351-0300] {task_command.py:467} INFO - Running <TaskInstance: Scraping.run_scraper scheduled__2025-04-20T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T13:31:16.396-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Scraping' AIRFLOW_CTX_TASK_ID='run_scraper' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T13:31:16.397-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T13:31:16.407-0300] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/jobs_functions/get_data_scraping.py", line 15, in run_scraper
+    s3_uri = lendo(is_mock = True)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/s3/s3_functions.py", line 102, in lendo
+    mock.start()  # Ativa o mock fora do contexto 'with'
+    ^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'start'
+[2025-04-21T13:31:16.413-0300] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=Scraping, task_id=run_scraper, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T163116, end_date=20250421T163116
+[2025-04-21T13:31:16.431-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T13:31:16.431-0300] {standard_task_runner.py:124} ERROR - Failed to execute job 93 for task run_scraper ('function' object has no attribute 'start'; 72495)
+Traceback (most recent call last):
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/jobs_functions/get_data_scraping.py", line 15, in run_scraper
+    s3_uri = lendo(is_mock = True)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lenovo/airflow/jobs/s3/s3_functions.py", line 102, in lendo
+    mock.start()  # Ativa o mock fora do contexto 'with'
+    ^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'start'
+[2025-04-21T13:31:16.450-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-04-21T13:31:16.466-0300] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T13:31:16.467-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

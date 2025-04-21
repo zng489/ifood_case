@@ -1,0 +1,21 @@
+[2025-04-21T03:02:58.947-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T03:02:58.960-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Scraping.iniciando_pipeline manual__2025-04-21T06:01:47.322667+00:00 [queued]>
+[2025-04-21T03:02:58.970-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Scraping.iniciando_pipeline manual__2025-04-21T06:01:47.322667+00:00 [queued]>
+[2025-04-21T03:02:58.971-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-04-21T03:02:58.993-0300] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): iniciando_pipeline> on 2025-04-21 06:01:47.322667+00:00
+[2025-04-21T03:02:58.999-0300] {standard_task_runner.py:72} INFO - Started process 29966 to run task
+[2025-04-21T03:02:59.003-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Scraping', 'iniciando_pipeline', 'manual__2025-04-21T06:01:47.322667+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/Scraping.py', '--cfg-path', '/tmp/tmpnaqr6pg8']
+[2025-04-21T03:02:59.004-0300] {standard_task_runner.py:105} INFO - Job 51: Subtask iniciando_pipeline
+[2025-04-21T03:02:59.050-0300] {task_command.py:467} INFO - Running <TaskInstance: Scraping.iniciando_pipeline manual__2025-04-21T06:01:47.322667+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T03:02:59.144-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Scraping' AIRFLOW_CTX_TASK_ID='iniciando_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2025-04-21T06:01:47.322667+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-21T06:01:47.322667+00:00'
+[2025-04-21T03:02:59.146-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T03:02:59.164-0300] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-21T03:02:59.165-0300] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "🚀 Iniciando o pipeline..."']
+[2025-04-21T03:02:59.177-0300] {subprocess.py:99} INFO - Output:
+[2025-04-21T03:02:59.178-0300] {subprocess.py:106} INFO - 🚀 Iniciando o pipeline...
+[2025-04-21T03:02:59.178-0300] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-21T03:02:59.209-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T03:02:59.210-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Scraping, task_id=iniciando_pipeline, run_id=manual__2025-04-21T06:01:47.322667+00:00, execution_date=20250421T060147, start_date=20250421T060258, end_date=20250421T060259
+[2025-04-21T03:02:59.257-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T03:02:59.284-0300] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T03:02:59.295-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,13 @@
+[2025-04-21 02:46:58] [INFO] 📥 DW MotherDuck: Padronizando os dados
+[2025-04-21 03:10:15] [INFO] 📥 DW SparkMetaStore: Padronizando os dados
+[2025-04-21 03:10:15] [INFO] 📥 DW SparkMetaStore: 📥 Lendo de prd_yellow_taxi_table
+[2025-04-21 03:10:21] [INFO] 📥 DW SparkMetaStore: ✅ Leitura bem-sucedida da tabela parquet.
+[2025-04-21 03:10:41] [INFO] 📥 DW SparkMetaStore: 🆕 Criando a tabela yellow_taxi_table no metastore.
+[2025-04-21 03:11:04] [INFO] 📥 DW SparkMetaStore: ✅ Tabela 'dw.yellow_taxi_table' salva no metastore com sucesso.
+[2025-04-21 03:11:13] [INFO] 📥 DW SparkMetaStore: ✅ Tabelas VM_total_amount_mes e VM_passenger_count_hora_dia criadas com sucesso.
+[2025-04-21 10:39:37] [INFO] 📥 DW SparkMetaStore: 📥 Iniciando o processamento
+[2025-04-21 10:39:38] [INFO] 📥 DW SparkMetaStore: 📥 Lendo dados parquet
+[2025-04-21 10:39:41] [INFO] 📥 DW SparkMetaStore: ✅ Leitura realizada com sucesso
+[2025-04-21 10:39:48] [INFO] 📥 DW SparkMetaStore: 💾 Salvando tabela 'yellow_taxi_table' no metastore
+[2025-04-21 10:40:06] [INFO] 📥 DW SparkMetaStore: ✅ Tabela 'yellow_taxi_table' salva com sucesso
+[2025-04-21 10:40:13] [INFO] 📥 DW SparkMetaStore: ✅ Tabelas agregadas criadas com sucesso

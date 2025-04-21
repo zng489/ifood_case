@@ -1,0 +1,36 @@
+[2025-04-21T00:40:53.883-0300] {processor.py:186} INFO - Started process (PID=15741) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:40:53.884-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-21T00:40:53.887-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:53.886-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:40:53.900-0300] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:40:54.083-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.082-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api
+[2025-04-21T00:40:54.108-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.107-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api
+[2025-04-21T00:40:54.125-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.124-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api
+[2025-04-21T00:40:54.153-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.153-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api
+[2025-04-21T00:40:54.169-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.169-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api
+[2025-04-21T00:40:54.186-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.185-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api
+[2025-04-21T00:40:54.201-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.201-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api
+[2025-04-21T00:40:54.202-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.202-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:54.219-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.219-0300] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2025-04-21T00:40:54.220-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:54.220-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-21T00:40:54.255-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.379 seconds
+[2025-04-21T00:43:29.079-0300] {processor.py:186} INFO - Started process (PID=480) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:43:29.102-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-21T00:43:29.106-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:29.105-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:43:29.119-0300] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:43:29.144-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:29.143-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:29.165-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:29.165-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-21T00:43:29.200-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.128 seconds
+[2025-04-21T00:44:38.947-0300] {processor.py:186} INFO - Started process (PID=595) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:44:39.841-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-21T00:44:39.844-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:39.844-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:44:39.857-0300] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:44:39.878-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:39.878-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:39.896-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:39.896-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-21T00:44:39.933-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.122 seconds
+[2025-04-21T00:45:53.941-0300] {processor.py:186} INFO - Started process (PID=688) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:45:53.964-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2025-04-21T00:45:53.970-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:53.968-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:45:53.982-0300] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2025-04-21T00:45:54.006-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:54.005-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:54.026-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:54.026-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2025-04-21T00:45:54.066-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.133 seconds

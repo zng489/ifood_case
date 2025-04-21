@@ -1,0 +1,57 @@
+[2025-04-21T00:39:44.888-0300] {processor.py:186} INFO - Started process (PID=15667) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:39:44.889-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-21T00:39:44.892-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:44.892-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:39:44.905-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:39:45.097-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.096-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-04-21T00:39:45.120-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.119-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-04-21T00:39:45.137-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.136-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-04-21T00:39:45.166-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.165-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2025-04-21T00:39:45.185-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.184-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2025-04-21T00:39:45.203-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.202-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2025-04-21T00:39:45.221-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.221-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2025-04-21T00:39:45.222-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.222-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:39:45.241-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.241-0300] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2025-04-21T00:39:45.255-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:45.254-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-20 00:00:00+00:00, run_after=2025-04-21 00:00:00+00:00
+[2025-04-21T00:39:45.285-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.406 seconds
+[2025-04-21T00:41:07.835-0300] {processor.py:186} INFO - Started process (PID=15752) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:41:07.856-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-21T00:41:07.859-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:07.859-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:41:07.870-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:41:07.893-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:07.893-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:41:07.918-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:07.918-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-20 00:00:00+00:00, run_after=2025-04-21 00:00:00+00:00
+[2025-04-21T00:41:07.948-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.121 seconds
+[2025-04-21T00:42:35.768-0300] {processor.py:186} INFO - Started process (PID=434) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:42:35.770-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-21T00:42:35.774-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:35.773-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:42:35.785-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:42:35.822-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:35.821-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:42:35.848-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:35.848-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-20 00:00:00+00:00, run_after=2025-04-21 00:00:00+00:00
+[2025-04-21T00:42:35.879-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.117 seconds
+[2025-04-21T00:43:41.203-0300] {processor.py:186} INFO - Started process (PID=491) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:43:41.224-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-21T00:43:41.227-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:41.227-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:43:41.238-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:43:41.266-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:41.265-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:41.295-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:41.295-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-20 00:00:00+00:00, run_after=2025-04-21 00:00:00+00:00
+[2025-04-21T00:43:41.327-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.133 seconds
+[2025-04-21T00:44:52.159-0300] {processor.py:186} INFO - Started process (PID=610) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:44:52.182-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-21T00:44:52.185-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:52.185-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:44:52.198-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:44:52.224-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:52.224-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:52.255-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:52.255-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-20 00:00:00+00:00, run_after=2025-04-21 00:00:00+00:00
+[2025-04-21T00:44:52.297-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.144 seconds
+[2025-04-21T00:45:28.596-0300] {processor.py:186} INFO - Started process (PID=666) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:45:28.598-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-21T00:45:28.600-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:28.600-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:45:28.612-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:45:28.636-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:28.635-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:28.663-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:28.663-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-20 00:00:00+00:00, run_after=2025-04-21 00:00:00+00:00
+[2025-04-21T00:45:28.697-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds
+[2025-04-21T00:46:05.095-0300] {processor.py:186} INFO - Started process (PID=699) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:46:05.097-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-04-21T00:46:05.100-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:05.100-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:46:05.111-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-04-21T00:46:05.135-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:05.134-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:46:05.163-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:05.162-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-04-20 00:00:00+00:00, run_after=2025-04-21 00:00:00+00:00
+[2025-04-21T00:46:05.196-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds

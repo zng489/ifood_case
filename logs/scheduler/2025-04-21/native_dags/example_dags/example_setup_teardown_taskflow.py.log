@@ -1,0 +1,36 @@
+[2025-04-21T00:40:30.841-0300] {processor.py:186} INFO - Started process (PID=15698) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:40:30.842-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2025-04-21T00:40:30.846-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:30.845-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:40:30.865-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:40:31.113-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.112-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_setup_teardown_taskflow
+[2025-04-21T00:40:31.136-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.136-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_setup_teardown_taskflow
+[2025-04-21T00:40:31.164-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.163-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_setup_teardown_taskflow
+[2025-04-21T00:40:31.200-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.199-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_setup_teardown_taskflow
+[2025-04-21T00:40:31.226-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.226-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown_taskflow
+[2025-04-21T00:40:31.244-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.243-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_setup_teardown_taskflow
+[2025-04-21T00:40:31.265-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.264-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown_taskflow
+[2025-04-21T00:40:31.265-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.265-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:31.292-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.292-0300] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown_taskflow
+[2025-04-21T00:40:31.293-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:31.293-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown_taskflow to None, run_after=None
+[2025-04-21T00:40:31.331-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.497 seconds
+[2025-04-21T00:43:11.253-0300] {processor.py:186} INFO - Started process (PID=465) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:43:11.254-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2025-04-21T00:43:11.258-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:11.257-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:43:11.285-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:43:11.318-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:11.317-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:11.338-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:11.338-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown_taskflow to None, run_after=None
+[2025-04-21T00:43:11.370-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.133 seconds
+[2025-04-21T00:44:23.306-0300] {processor.py:186} INFO - Started process (PID=573) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:44:23.309-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2025-04-21T00:44:23.312-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:23.311-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:44:23.330-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:44:23.364-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:23.364-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:23.383-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:23.382-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown_taskflow to None, run_after=None
+[2025-04-21T00:44:23.422-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.125 seconds
+[2025-04-21T00:45:36.436-0300] {processor.py:186} INFO - Started process (PID=673) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:45:36.459-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2025-04-21T00:45:36.462-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:36.462-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:45:36.478-0300] {processor.py:925} INFO - DAG(s) 'example_setup_teardown_taskflow' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2025-04-21T00:45:36.505-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:36.504-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:36.524-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:36.524-0300] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown_taskflow to None, run_after=None
+[2025-04-21T00:45:36.561-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.132 seconds

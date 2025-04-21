@@ -1,0 +1,36 @@
+[2025-04-21T00:40:24.890-0300] {processor.py:186} INFO - Started process (PID=15694) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:40:24.891-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-04-21T00:40:24.894-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:24.893-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:40:24.905-0300] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:40:25.070-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.069-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2025-04-21T00:40:25.092-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.091-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2025-04-21T00:40:25.107-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.107-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2025-04-21T00:40:25.134-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.134-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_dynamic_task_mapping
+[2025-04-21T00:40:25.151-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.151-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_dynamic_task_mapping
+[2025-04-21T00:40:25.171-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.170-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_dynamic_task_mapping
+[2025-04-21T00:40:25.188-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.188-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_dynamic_task_mapping
+[2025-04-21T00:40:25.189-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.189-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:25.211-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.210-0300] {dag.py:3262} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2025-04-21T00:40:25.212-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:25.212-0300] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2025-04-21T00:40:25.241-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.357 seconds
+[2025-04-21T00:43:06.955-0300] {processor.py:186} INFO - Started process (PID=461) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:43:06.957-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-04-21T00:43:06.960-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:06.960-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:43:06.972-0300] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:43:06.994-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:06.994-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:07.012-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:07.012-0300] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2025-04-21T00:43:07.048-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.099 seconds
+[2025-04-21T00:44:18.264-0300] {processor.py:186} INFO - Started process (PID=569) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:44:18.266-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-04-21T00:44:18.269-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:18.268-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:44:18.279-0300] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:44:18.302-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:18.302-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:18.323-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:18.322-0300] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2025-04-21T00:44:18.376-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.121 seconds
+[2025-04-21T00:45:31.740-0300] {processor.py:186} INFO - Started process (PID=669) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:45:31.742-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-04-21T00:45:31.746-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:31.745-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:45:31.759-0300] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-04-21T00:45:31.782-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:31.781-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:31.798-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:31.798-0300] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2025-04-21T00:45:31.831-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.097 seconds

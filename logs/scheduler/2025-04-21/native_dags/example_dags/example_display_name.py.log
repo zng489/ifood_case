@@ -1,0 +1,50 @@
+[2025-04-21T00:39:49.360-0300] {processor.py:186} INFO - Started process (PID=15670) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:39:49.361-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-21T00:39:49.364-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.364-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:39:49.376-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:39:49.554-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.553-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_display_name
+[2025-04-21T00:39:49.573-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.573-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_display_name
+[2025-04-21T00:39:49.589-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.589-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_display_name
+[2025-04-21T00:39:49.617-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.616-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2025-04-21T00:39:49.634-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.634-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2025-04-21T00:39:49.652-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.651-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2025-04-21T00:39:49.670-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.669-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2025-04-21T00:39:49.670-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.670-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:39:49.688-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.688-0300] {dag.py:3262} INFO - Creating ORM DAG for example_display_name
+[2025-04-21T00:39:49.689-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:39:49.689-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-21T00:39:49.723-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.371 seconds
+[2025-04-21T00:41:10.864-0300] {processor.py:186} INFO - Started process (PID=15755) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:41:10.887-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-21T00:41:10.891-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:10.890-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:41:10.905-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:41:10.929-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:10.929-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:41:10.949-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:41:10.948-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-21T00:41:10.987-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.130 seconds
+[2025-04-21T00:42:38.478-0300] {processor.py:186} INFO - Started process (PID=437) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:42:38.499-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-21T00:42:38.502-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:38.501-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:42:38.512-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:42:38.542-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:38.542-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:42:38.557-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:38.556-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-21T00:42:38.587-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.116 seconds
+[2025-04-21T00:43:44.885-0300] {processor.py:186} INFO - Started process (PID=494) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:43:44.907-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-21T00:43:44.910-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:44.910-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:43:44.921-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:43:44.942-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:44.942-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:44.960-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:44.960-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-21T00:43:44.992-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.114 seconds
+[2025-04-21T00:44:55.333-0300] {processor.py:186} INFO - Started process (PID=613) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:44:55.354-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-21T00:44:55.357-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:55.357-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:44:55.368-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:44:55.397-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:55.397-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:55.417-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:55.417-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-21T00:44:55.453-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.126 seconds
+[2025-04-21T00:46:08.049-0300] {processor.py:186} INFO - Started process (PID=702) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:46:08.072-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-04-21T00:46:08.075-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:08.075-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:46:08.087-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-04-21T00:46:08.114-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:08.114-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:46:08.140-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:46:08.140-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-04-21T00:46:08.178-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.135 seconds

@@ -1,0 +1,38 @@
+[2025-04-21T13:40:09.220-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-21T13:40:09.228-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Scraping.dw_pyspark scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:40:09.232-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Scraping.dw_pyspark scheduled__2025-04-20T00:00:00+00:00 [queued]>
+[2025-04-21T13:40:09.232-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2025-04-21T13:40:09.247-0300] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): dw_pyspark> on 2025-04-20 00:00:00+00:00
+[2025-04-21T13:40:09.250-0300] {standard_task_runner.py:72} INFO - Started process 73619 to run task
+[2025-04-21T13:40:09.252-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Scraping', 'dw_pyspark', 'scheduled__2025-04-20T00:00:00+00:00', '--job-id', '100', '--raw', '--subdir', 'DAGS_FOLDER/Ifood_case.py', '--cfg-path', '/tmp/tmp6ju9df0l']
+[2025-04-21T13:40:09.253-0300] {standard_task_runner.py:105} INFO - Job 100: Subtask dw_pyspark
+[2025-04-21T13:40:09.287-0300] {task_command.py:467} INFO - Running <TaskInstance: Scraping.dw_pyspark scheduled__2025-04-20T00:00:00+00:00 [running]> on host DESKTOP-1GIT60U.
+[2025-04-21T13:40:09.340-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Scraping' AIRFLOW_CTX_TASK_ID='dw_pyspark' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-20T00:00:00+00:00'
+[2025-04-21T13:40:09.340-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-21T13:40:09.421-0300] {credentials.py:1213} INFO - Found credentials in environment variables.
+[2025-04-21T13:40:09.714-0300] {logging_mixin.py:190} INFO - Lendo de: s3a://yellow_taxi_files/yellow_taxi_files/
+[2025-04-21T13:40:09.714-0300] {logging_mixin.py:190} INFO - Caminho do S3 para leitura: s3a://yellow_taxi_files/yellow_taxi_files/
+[2025-04-21T13:40:14.457-0300] {dw_pyspark.py:46} INFO - Padronizando os dados
+[2025-04-21T13:40:23.537-0300] {dw_pyspark.py:73} INFO - 📊 Resultado da agregação por mês:
++----+-----+----------------------+---------------------+------------------+
+|YEAR|MONTH|SOMATORIA_TOTAL_AMOUNT|NUMERO_TOTAL_DE_TRIPS| avg_fare_per_trip|
++----+-----+----------------------+---------------------+------------------+
+|2023|   03|   9.463574032971822E7|              3403755|27.803334943237164|
+|2023|   02|   7.838083854983433E7|              2913950|26.898484376819894|
+|2023|   01|   8.286412023978238E7|              3066741|  27.0202538263852|
+|2023|   05|  1.0172025517973007E8|              3512634|28.958398506570873|
+|2023|   04|   9.295682404977362E7|              3288242|28.269459501391204|
++----+-----+----------------------+---------------------+------------------+
+
+
+[2025-04-21T13:40:26.038-0300] {dw_pyspark.py:85} INFO - ✅ Tabela externa 'ext_avg_total_amount' salva com sucesso em: /home/lenovo/airflow/tmp/external_tables/avg_total_amount
+[2025-04-21T13:40:33.918-0300] {dw_pyspark.py:108} INFO - ✅ Tabela externa 'ext_avg_passenger_count' salva com sucesso em: /home/lenovo/airflow/tmp/external_tables/avg_passenger_count
+[2025-04-21T13:40:34.870-0300] {credentials.py:1213} INFO - Found credentials in environment variables.
+[2025-04-21T13:40:34.962-0300] {logging_mixin.py:190} INFO - Salvando em: s3a://prd_yellow_taxi_table/yellow_taxi_output/
+[2025-04-21T13:40:34.963-0300] {logging_mixin.py:190} INFO - Caminho do S3 para escrita: s3a://prd_yellow_taxi_table/yellow_taxi_output/
+[2025-04-21T13:40:35.343-0300] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-21T13:40:35.348-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-21T13:40:35.349-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Scraping, task_id=dw_pyspark, run_id=scheduled__2025-04-20T00:00:00+00:00, execution_date=20250420T000000, start_date=20250421T164009, end_date=20250421T164035
+[2025-04-21T13:40:35.405-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-21T13:40:35.413-0300] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-21T13:40:35.413-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

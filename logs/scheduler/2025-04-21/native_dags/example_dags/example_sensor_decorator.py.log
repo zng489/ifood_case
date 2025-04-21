@@ -1,0 +1,36 @@
+[2025-04-21T00:40:14.786-0300] {processor.py:186} INFO - Started process (PID=15686) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:40:14.787-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-21T00:40:14.792-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:14.792-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:40:14.809-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:40:15.016-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.015-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2025-04-21T00:40:15.040-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.039-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2025-04-21T00:40:15.058-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.057-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2025-04-21T00:40:15.086-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.086-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2025-04-21T00:40:15.104-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.103-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2025-04-21T00:40:15.122-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.121-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2025-04-21T00:40:15.141-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.140-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2025-04-21T00:40:15.142-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.142-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:15.162-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.162-0300] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2025-04-21T00:40:15.163-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:15.163-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-21T00:40:15.204-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.428 seconds
+[2025-04-21T00:42:58.957-0300] {processor.py:186} INFO - Started process (PID=453) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:42:58.983-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-21T00:42:58.986-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:58.986-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:42:59.000-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:42:59.029-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:59.028-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:42:59.050-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:42:59.050-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-21T00:42:59.085-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.136 seconds
+[2025-04-21T00:44:01.955-0300] {processor.py:186} INFO - Started process (PID=544) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:44:01.957-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-21T00:44:01.959-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:01.959-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:44:01.972-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:44:02.074-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:02.074-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:02.093-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:02.093-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-21T00:44:02.136-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.187 seconds
+[2025-04-21T00:45:15.607-0300] {processor.py:186} INFO - Started process (PID=649) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:45:15.609-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-21T00:45:15.612-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:15.611-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:45:15.625-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-21T00:45:15.647-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:15.647-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:15.666-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:15.665-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-21T00:45:15.711-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.113 seconds

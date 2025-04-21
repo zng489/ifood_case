@@ -1,0 +1,36 @@
+[2025-04-21T00:40:55.341-0300] {processor.py:186} INFO - Started process (PID=15742) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:40:55.342-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-04-21T00:40:55.344-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.344-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:40:55.368-0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:40:55.583-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.581-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_task_group_decorator
+[2025-04-21T00:40:55.606-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.605-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_task_group_decorator
+[2025-04-21T00:40:55.623-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.622-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_task_group_decorator
+[2025-04-21T00:40:55.653-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.652-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_task_group_decorator
+[2025-04-21T00:40:55.673-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.672-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_task_group_decorator
+[2025-04-21T00:40:55.690-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.690-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_task_group_decorator
+[2025-04-21T00:40:55.707-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.706-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_task_group_decorator
+[2025-04-21T00:40:55.707-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.707-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:40:55.724-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.724-0300] {dag.py:3262} INFO - Creating ORM DAG for example_task_group_decorator
+[2025-04-21T00:40:55.725-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:40:55.725-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-04-21T00:40:55.760-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.427 seconds
+[2025-04-21T00:43:30.335-0300] {processor.py:186} INFO - Started process (PID=481) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:43:30.359-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-04-21T00:43:30.362-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:30.362-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:43:32.147-0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:43:32.182-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:32.182-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:43:32.203-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:43:32.203-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-04-21T00:43:32.242-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.158 seconds
+[2025-04-21T00:44:41.110-0300] {processor.py:186} INFO - Started process (PID=596) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:44:41.133-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-04-21T00:44:41.137-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:41.136-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:44:41.163-0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:44:41.192-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:41.192-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:44:41.211-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:44:41.211-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-04-21T00:44:41.249-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.147 seconds
+[2025-04-21T00:45:55.197-0300] {processor.py:186} INFO - Started process (PID=689) to work on /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:45:55.223-0300] {processor.py:914} INFO - Processing file /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2025-04-21T00:45:55.227-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:55.226-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:45:55.256-0300] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2025-04-21T00:45:55.291-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:55.291-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-21T00:45:55.310-0300] {logging_mixin.py:190} INFO - [2025-04-21T00:45:55.310-0300] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2025-04-21T00:45:55.352-0300] {processor.py:208} INFO - Processing /home/lenovo/miniconda3/envs/worker/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.165 seconds
